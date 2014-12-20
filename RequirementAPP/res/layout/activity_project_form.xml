@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/hello_new_project" />
+    
+    <EditText
+	    android:id="@+id/EditProjectName"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/project_name"
+	    android:layout_width="fill_parent">
+	</EditText>
+	
+	<EditText
+	    android:id="@+id/EditProjectDesc"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/project_desc"
+	    android:lines="2"
+	    android:layout_width="fill_parent">
+	</EditText>
+	
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/hello_start_requirement" />
+	
+	<EditText
+	    android:id="@+id/EditStartRequirementName"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/start_requirement_name"
+	    android:layout_width="fill_parent">
+	</EditText>
+	
+	<EditText
+	    android:id="@+id/EditStartRequirementDesc"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/start_requirement_desc"
+	    android:lines="2"
+	    android:layout_width="fill_parent">
+	</EditText>
+	
+	<EditText
+	    android:id="@+id/EditStartSubRequirementName"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/start_sub_requirement_name"
+	    android:layout_width="fill_parent">
+	</EditText>
+	
+	<EditText
+	    android:id="@+id/EditStartSubRequirementDesc"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/start_sub_requirement_desc"
+	    android:lines="2"
+	    android:layout_width="fill_parent">
+	</EditText>
+	
+	<Button 
+       	android:id="@+id/adding_NewP"
+       	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adding_NewP"
+        android:onClick="creerProject"/>
+
+</LinearLayout>
+     

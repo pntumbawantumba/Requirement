@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	
+    <TableLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:shrinkColumns="*" 
+        android:stretchColumns="*" >
+	    
+	    <TableRow
+           android:layout_height="wrap_content"
+           android:layout_width="fill_parent"
+           android:gravity="center_horizontal">
+           
+		    <TextView
+		        android:id="@+id/hello_world"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="16sp"
+		        android:textStyle="bold"
+		        android:text="@string/hello_world" />
+		    
+		    <Button 
+		        android:id="@+id/adding_newR"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/adding_newR"
+		        android:onClick="addNewRequirement"/>
+	    </TableRow>
+  </TableLayout>
+  
+  <ListView 
+      android:id="@+id/list_requirement" 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent" />
+
+</LinearLayout>

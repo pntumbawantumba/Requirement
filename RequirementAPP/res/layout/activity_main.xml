@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:shrinkColumns="*" 
+        android:stretchColumns="*" >
+	    
+	    <TableRow
+           android:layout_height="wrap_content"
+           android:layout_width="fill_parent"
+           android:gravity="center_horizontal">
+           
+		    <TextView
+		        android:id="@+id/all_project"
+		        android:layout_width="match_parent"
+	            android:textStyle="bold"
+	            android:textSize="15sp"
+	            android:layout_gravity="start|top"
+		        android:layout_height="wrap_content"
+		        android:text="@string/all_project" />
+		    
+		    <Button 
+		        	android:id="@+id/button_newP"
+		        	android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="start|top"
+		            android:text="@string/button_newP"
+		            android:onClick="loadProjectForm"/>
+	   </TableRow>
+	</TableLayout>
+	
+    <ListView android:id="@+id/list_project"
+			      android:layout_width="fill_parent"
+			      android:layout_height="fill_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+ 
+    <TextView
+        android:id="@+id/name_requirement"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    
+    <TextView
+        android:id="@+id/descs_requirement"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    
+    <TextView
+        android:id="@+id/deriv_name_requirement"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+   
+   <TableLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:shrinkColumns="*" 
+        android:stretchColumns="*" >
+         
+	    <TableRow
+	        android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+	    
+	    <Button
+	        android:id="@+id/delete_requirement"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/delete_requirement" />
+    
+	    <Button
+	        android:id="@+id/update_requirement"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/update_requirement" />
+	    
+	    </TableRow>
+  </TableLayout>
+    
+    
+ 
+</LinearLayout>

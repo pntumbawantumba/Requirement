@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<requirementsProject>
+<ProjectName>VELO ELECTRIQUE</ProjectName>
+<id>1</id>
+<Description>C'est un velon a assistance electrique</Description>
+<specification name="Globale">
+<requirement deriveId="" id="S1" refineId="" satisfyId="">
+<intitule>Velo a assistance electrique</intitule>
+<description>Le velo a assistance electrique doit permettre de se deplacer en milieu urbain en limitant les depenses energetiques de l'utilisateur</description>
+</requirement>
+<requirement deriveId="S1" id="S2" refineId="" satisfyId="">
+<intitule>Assister au pedalage</intitule>
+<description>Le velo a assistance electrique doit fournir une assisatnce au pedalage proportionnelle a l'effort fourni par le cycliste</description>
+</requirement>
+<requirement deriveId="" id="S3" refineId="" satisfyId="">
+<intitule>Proceder a la regeneration de la batterier</intitule>
+<description>Dans les phases de descentes et de freinage le systeme doit pouvoir recharger la batterie</description>
+</requirement>
+</specification>
+</requirementsProject>

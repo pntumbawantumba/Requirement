@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/hello_requirement_form" />
+   
+	<EditText
+	    android:id="@+id/EditNewRequirementName"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/new_requirement_name"
+	    android:layout_width="fill_parent">
+	</EditText>
+	
+	<EditText
+	    android:id="@+id/EditNewRequirementDesc"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/new_requirement_desc"
+	    android:lines="2"
+	    android:layout_width="fill_parent">
+	</EditText>
+	
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/relation_new_requirement" />
+	
+	<Spinner
+	    android:id="@+id/list_requirement_spinner"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+	
+	<Button 
+       	android:id="@+id/adding_NewR"
+       	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adding_NewR"
+        android:onClick="ajouterRequirement"/>
+
+</LinearLayout>

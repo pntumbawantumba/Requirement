@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><requirementsProject>
+<ProjectName>Test</ProjectName>
+<id>2</id>
+<Description>Test </Description>
+<specification name="Globale">
+<requirement deriveId="" id="S1" refineId="" satisfyId="">
+<intitule>Test</intitule>
+<description>Test</description>
+</requirement>
+<requirement deriveId="S1" id="S2" refineId="" satisfyId="">
+<intitule>Test</intitule>
+<description>Test</description>
+</requirement>
+</specification>
+</requirementsProject>
